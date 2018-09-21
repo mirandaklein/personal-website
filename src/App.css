@@ -6,11 +6,18 @@
   display: block;
 
 }
-
-.App-header {
+.header{
   width: 100%;
-  height: 300px;
+  margin: 20px;
+}
+.App-header {
+  margin: auto;
+  padding: 20px;
+  text-align: center; 
+  width: 20%;
+  height: auto;
   color: white;
+  display: block;
 }
 
 
@@ -41,7 +48,7 @@ li.nav-list a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li.nav-list a:hover {
+li.nav-list :hover {
   background-color: lightslategrey;
   color: white;
   
@@ -57,6 +64,7 @@ li.nav-list a:hover {
   background-color: blue;
   display: flex;
   flex-wrap: wrap;
+  height: auto;
 }
 .photo-container{
   width: 40%;
@@ -86,11 +94,11 @@ margin: 10px;
 .contact{
   width: 100%;
   display: block;
+  background-color: lightyellow;
 }
 ul.contact-info{
-  background-color: lightyellow;
-  list-style: none;
-  font-size: 2vw;
+   list-style: none;
+  font-size: 25px;
   padding: 20px 20px;
   text-align: center;
 }
@@ -121,6 +129,11 @@ ul.contact-info{
 /*~~~~~Media Query for Phone/Tablet~~~~~*/
 @media only screen and (max-width : 873px){
  
+ 
+  /*Header*/
+  .App-header{
+    width: 40%;
+  }
 
   /*Nav*/
   .nav-bar{
@@ -136,7 +149,10 @@ ul.contact-info{
   width: 200px;
   background-color: #f1f1f1;
 }
-
+li.nav-list {
+  width: 100%;
+  font-size: 80%;
+}
 li.nav-list a {
   display: block;
   color: gray;
@@ -148,12 +164,18 @@ li.nav-list a {
   .bio{
     width: 70%;
     float: right;
+    height: 100%;
   }
   .bio-container{
     width: 100%;
   }
   .photo-container{
     width: 100%;
+  }
+
+  /*Contact*/
+  ul.contact-info{
+    font-size: 15px;
   }
 }
 

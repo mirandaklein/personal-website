@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import watercolor from './images/watercolor.jpg';
 import Miranda from './images/miranda.jpg';
+import logo from './images/logo2.png';
 import './App.css';
 import Bio from './components/bio.js';
 import Nav from './components/nav.js';
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <img src={watercolor} className="App-header" alt="logo" />
+          <img src={logo} className="App-header" alt="logo" />
         </header>
           <Nav />
           <Route exact path="/" render={() => (
