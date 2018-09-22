@@ -110,6 +110,8 @@ ul.contact-info {
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
+  text-decoration: none;
+
 }
 
 .project {
@@ -121,9 +123,11 @@ ul.contact-info {
   border-radius: 5px;
   padding: 20px;
   font-size: 100%;
+  text-decoration: none;
 }
 
 li.project {
+  text-decoration: none;
   list-style: none;
   margin: 10px auto;
   width: 75%;
@@ -131,6 +135,8 @@ li.project {
 
 li.project a {
   color: white;
+  text-decoration: none;
+
 }
 
 li.project :hover {
