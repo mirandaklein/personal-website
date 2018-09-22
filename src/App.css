@@ -19,6 +19,9 @@
   color: white;
   display: block;
 }
+.header-link{
+  list-style: none;
+}
 
 
 /*Navigation*/
@@ -52,6 +55,8 @@ li.nav-list :hover {
   color: white;
   
 }
+
+
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import Miranda from './images/miranda.jpg';
 import logo from './images/logo2.png';
 import './App.css';
@@ -14,7 +14,9 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <img src={logo} className="App-header" alt="logo" />
+        <li className="header-link"><a><Link to='/'><img src={logo} className="App-header" alt="logo"></img></Link></a></li>
+
+          
         </header>
           <Nav />
           <Route exact path="/" render={() => (
