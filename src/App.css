@@ -57,8 +57,7 @@ li.nav-list a {
 }
 
 li.nav-list :hover {
-  text-decoration: underline;
-  font-size: 14px;
+   font-size: 16px;
 }
 
 /*Bio*/
@@ -177,6 +176,9 @@ li.project :hover {
     padding: 10px;
     text-decoration: none;
   }
+  li.nav-list :hover {
+    font-size: 14px;
+ }
 
   /*Bio*/
   .bio {
