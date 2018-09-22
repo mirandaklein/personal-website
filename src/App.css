@@ -47,7 +47,6 @@ li.nav-list a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li.nav-list :hover {
   background-color: lightslategrey;
   color: white;
@@ -61,7 +60,6 @@ li.nav-list :hover {
 
 .bio{
   width: 100%;
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   height: auto;
@@ -72,22 +70,20 @@ li.nav-list :hover {
   margin: 0 0 0 0;
   padding: 0;
   text-align: center;  
-  background-color: lightblue;
+  
 }
 .miranda-photo{
-width: 50%;
+width: 45%;
 border-radius: 60%;
 margin: 10px;
 }
 
 .bio-container{
-  width: 60%;
+  width: 55%;
   font-size: 20px;
   margin: 0 0 0 0;
   padding: 0;
   text-align: center;
-  background-color: lightpink;
-  
 }
 
 /*Contact*/
@@ -104,7 +100,7 @@ ul.contact-info{
 }
 
 /*~~~~~~~~~~~~Projects*~~~~~~~~~~~~*/
-.container {
+.projects-container {
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: 300px 300px 300px;
@@ -124,6 +120,19 @@ ul.contact-info{
   font-size: 100%;
 }
 
+li.project {
+  list-style: none;
+}
+
+li.project a{
+  color: white;
+}
+
+li.project :hover {
+  background-color: lightslategray;
+  color: white;
+  
+}
 
 
 /*~~~~~Media Query for Phone/Tablet~~~~~*/

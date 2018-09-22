@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import watercolor from './images/watercolor.jpg';
 import Miranda from './images/miranda.jpg';
 import logo from './images/logo2.png';
 import './App.css';
