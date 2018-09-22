@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import Miranda from './images/miranda.jpg';
-import logo from './images/logo2.png';
 import './App.css';
 import Bio from './components/bio.js';
 import Nav from './components/nav.js';
@@ -14,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-        <div className="App-header"><a><Link to="/">Miranda Klein</Link></a></div> 
+        <div className="App-header"><Link to="/">Miranda Klein</Link></div> 
         </header>
           <Nav />
           <Route exact path="/" render={() => (

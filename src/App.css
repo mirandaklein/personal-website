@@ -1,39 +1,36 @@
-
-  /*App*/
+/*App*/
 
 .App {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   display: block;
-
 }
-.header{
+.header {
   width: 100%;
   margin: 20px;
 }
 .App-header {
   text-decoration: none;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 4vw;
   margin: auto;
   padding: 20px;
-  text-align: center; 
+  text-align: center;
   width: 30%;
   height: auto;
   color: black;
   display: block;
 }
-.App-header a{
+.App-header a {
   text-decoration: none;
   color: black;
 }
-.header-logo{
+.header-logo {
   list-style: none;
 }
 
-
 /*Navigation*/
-.nav-bar{
-  font-family: 'PT Sans', sans-serif;
+.nav-bar {
+  font-family: "PT Sans", sans-serif;
   font-size: 12px;
   text-align: center;
   margin: 0;
@@ -62,52 +59,44 @@ li.nav-list a {
 li.nav-list :hover {
   background-color: lightslategrey;
   color: white;
-  
 }
-
-
-
-
-
 
 /*Bio*/
 
-.bio{
+.bio {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
-.photo-container{
+.photo-container {
   width: 40%;
-  font-size: 20px;
-  margin: 0 0 0 0;
-  padding: 0;
-  text-align: center;  
-  
-}
-.miranda-photo{
-width: 45%;
-border-radius: 60%;
-margin: 10px;
-}
-
-.bio-container{
-  width: 55%;
   font-size: 20px;
   margin: 0 0 0 0;
   padding: 0;
   text-align: center;
 }
+.miranda-photo {
+  width: 45%;
+  border-radius: 60%;
+  margin: 10px;
+}
+
+.bio-container {
+  width: 55%;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
 
 /*Contact*/
-.contact{
+.contact {
   width: 100%;
   display: block;
-  background-color: lightyellow;
 }
-ul.contact-info{
-   list-style: none;
+ul.contact-info {
+  list-style: none;
   font-size: 25px;
   padding: 20px 20px;
   text-align: center;
@@ -140,70 +129,77 @@ li.project {
   width: 75%;
 }
 
-li.project a{
+li.project a {
   color: white;
 }
 
 li.project :hover {
   background-color: lightslategray;
   color: white;
-  
 }
 
-
 /*~~~~~Media Query for Phone/Tablet~~~~~*/
-@media only screen and (max-width : 873px){
- 
- 
+@media only screen and (max-width: 873px) {
   /*Header*/
-  .App-header{
+  .App-header {
     width: 40%;
   }
 
   /*Nav*/
-  .nav-bar{
+  .nav-bar {
     width: 30%;
     display: flex;
     flex-wrap: wrap;
     float: left;
   }
-  .nav-container{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-li.nav-list {
-  width: 100%;
-  font-size: 80%;
-}
-li.nav-list a {
-  display: block;
-  color: gray;
-  padding: 8px 16px;
-  text-decoration: none;
-}
+  .nav-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  li.nav-list {
+    width: 100%;
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+  }
+  li.nav-list a {
+    display: block;
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+  }
 
   /*Bio*/
-  .bio{
+  .bio {
     width: 70%;
     float: right;
     height: 100%;
   }
-  .bio-container{
+  .bio-container {
+    width: 100%;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  .photo-container {
     width: 100%;
   }
-  .photo-container{
-    width: 100%;
+  .miranda-photo {
+    width: 25%;
+    border-radius: 60%;
+    margin: 10px;
   }
 
   /*Contact*/
-  ul.contact-info{
+  ul.contact-info {
     font-size: 15px;
   }
 }
 
-
-
-
+/*Projects*/
+li.project {
+  list-style: none;
+}
