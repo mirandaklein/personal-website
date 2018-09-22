@@ -11,21 +11,30 @@
   margin: 20px;
 }
 .App-header {
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 4vw;
   margin: auto;
   padding: 20px;
   text-align: center; 
-  width: 20%;
+  width: 30%;
   height: auto;
-  color: white;
+  color: black;
   display: block;
 }
-.header-link{
+.App-header a{
+  text-decoration: none;
+  color: black;
+}
+.header-logo{
   list-style: none;
 }
 
 
 /*Navigation*/
 .nav-bar{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
   text-align: center;
   margin: 0;
   padding: 0;

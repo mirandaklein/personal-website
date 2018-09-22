@@ -14,9 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-        <li className="header-link"><a><Link to='/'><img src={logo} className="App-header" alt="logo"></img></Link></a></li>
-
-          
+        <div className="App-header"><a><Link to="/">Miranda Klein</Link></a></div> 
         </header>
           <Nav />
           <Route exact path="/" render={() => (

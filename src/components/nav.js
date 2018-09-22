@@ -7,11 +7,11 @@ class Nav extends Component{
         return(
            <div className="nav-bar">
             <div className="nav-container">
-                <li className="nav-list"><a><Link to='/'>Biography</Link></a></li>
-                <li className="nav-list"><a><Link to='/projects'>Projects</Link></a></li>
-                <li className="nav-list"><a><Link to='/skills'>Skills</Link></a></li>
-                <li className="nav-list"><a><Link to='/hobbies'>Hobbies</Link></a></li>
-                <li className="nav-list"><a><Link to='/contact'>Contact</Link></a></li>
+                <li className="nav-list"><a><Link to='/'>BIO</Link></a></li>
+                <li className="nav-list"><a><Link to='/projects'>PROJECTS</Link></a></li>
+                <li className="nav-list"><a><Link to='/skills'>SKILLS</Link></a></li>
+                <li className="nav-list"><a><Link to='/hobbies'>HOBBIES</Link></a></li>
+                <li className="nav-list"><a><Link to='/contact'>CONTACT</Link></a></li>
             </div>
            </div>
         )
