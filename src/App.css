@@ -122,7 +122,6 @@ ul.contact-info {
   margin: 10px;
   border-radius: 5px;
   padding: 20px;
-  font-size: 100%;
   text-decoration: none;
 }
 
@@ -136,11 +135,11 @@ li.project {
 li.project a {
   color: white;
   text-decoration: none;
-
+  font-size: 20px;
 }
 
 li.project :hover {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 /*~~~~~Media Query for Phone/Tablet~~~~~*/
