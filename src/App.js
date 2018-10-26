@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import Miranda from './images/miranda.jpg';
+import MirandaBanjo from './images/mirandabanjo2.jpg';
 import './App.css';
 import Bio from './components/bio.js';
 import Nav from './components/nav.js';
@@ -30,7 +31,7 @@ class App extends Component {
 
            <Route path="/contact" render={()=> (
             <Contact
-              photo= {Miranda}
+              photo= {MirandaBanjo}
              />
          )}/> 
       </div>

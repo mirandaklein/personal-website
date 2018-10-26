@@ -46,6 +46,7 @@
 
 li.nav-list {
   float: left;
+  padding: 0px 40px 0px 0px;
 }
 
 li.nav-list a {
@@ -139,8 +140,7 @@ li.project a {
 }
 
 li.project :hover {
-  background-color: lightslategray;
-  color: white;
+  font-size: 16px;
 }
 
 /*~~~~~Media Query for Phone/Tablet~~~~~*/
